@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # App title
-st.title("🚗 Vehicle Maintenance Prediction")
+st.title("🚗 Vehicle Maintenance Prediction App")
 
 st.write("Predict whether vehicle maintenance is needed based on kilometers driven.")
 
@@ -28,3 +28,4 @@ if st.button("Predict Maintenance"):
         st.error("🔧 Maintenance is REQUIRED")
     else:
         st.success("✅ Maintenance is NOT required")
+
